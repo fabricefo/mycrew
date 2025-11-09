@@ -27,7 +27,7 @@ jobs:
 
     - name: Create .env file from secrets
       run: |
-        echo "TELEGRAM_TOKEN=${{ secrets.TELEGRAM_TOKEN }}" >> .env
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
 
     # Log in to GitHub Docker Registry
     - name: Log in to GitHub Container Registry

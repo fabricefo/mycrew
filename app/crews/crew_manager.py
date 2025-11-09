@@ -11,6 +11,7 @@ except Exception:
 
 # Optional: Use environment variables for API keys
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+MODEL="gpt-4o-mini"
 
 def create_crew():
     # Define agents
