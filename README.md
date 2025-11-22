@@ -5,6 +5,8 @@ Welcome to the My Crew project, powered by [crewAI](https://crewai.com). .
 This project is in progress, the main goal is to create a crew of assistants for me :)
 The crew will be connected to my Telegram bot with the help of n8n to manage the triggers and conversation.
 
+Original source : https://github.com/vishvaRam/Blog-Writing-Agentic-RAG-CrewAI
+
 ## Project setup
 
 1. Install uv : ```pip install uv```

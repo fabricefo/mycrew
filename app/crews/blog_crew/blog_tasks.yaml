@@ -1,0 +1,213 @@
+draft_creation_task:
+  description: >
+    Marcus, effectuez une recherche approfondie sur le sujet "{topic}" en utilisant une approche dynamique basée sur l'IA.
+
+    **ÉTAPE 1: PLANIFICATION INTELLIGENTE DES REQUÊTES**
+    Avant de formuler des requêtes, analysez le sujet "{topic}" et déterminez:
+    - À quelle catégorie appartient ce sujet? (Technologie, Commerce, Santé, Éducation, etc.)
+    - Quels seraient les angles d'approche les plus pertinents pour une lecture de {read_time} minutes?
+    - Que souhaiterait savoir le public cible sur ce sujet?
+    - Quelles sont les lacunes ou idées reçues les plus probables?
+
+    **ÉTAPE 2: RECHERCHE PROGRESSIVE**
+    À partir de votre analyse, effectuez 8 à 12 requêtes stratégiques en suivant ce modèle adaptatif:
+
+    *Requêtes fondamentales (3 à 4 requêtes):*
+    - Commencez par: "Quelle est la définition générale de {topic}?"
+    - Puis: "État actuel de {topic} (2024, 2025, dernières données)"
+    - Puis: "Principaux avantages de {topic}"
+    - Puis: "Principaux défis et problèmes liés à {topic}"
+
+    *Exploration approfondie adaptative (4 à 6 requêtes):*
+    Générez des requêtes spécifiques en fonction des connaissances acquises lors de la phase d'apprentissage initiale.
+
+    Exemples pour différents types de sujets:
+    - Produit technologique: "Spécifications techniques", "Avis des utilisateurs", "Comparaisons", "Tarification"
+    - Concept commercial: "Stratégies de mise en œuvre", "Études de retour sur investissement", "Études de cas", "Bonnes pratiques"
+    - Sujet éducatif: "Méthodes d'apprentissage", "Avis d'experts", "Erreurs fréquentes", "Ressources"
+
+    *Validation et contextualisation (2 à 3 requêtes):*
+    - "Avis d'experts et études sur le sujet {topic}"
+    - "Exemples concrets de réussite concernant le sujet {topic}"
+    - "Prédictions des tendances futures concernant le sujet {topic}"
+
+    **ÉTAPE 3: SYNTHÈSE INTELLIGENTE**
+    Après chaque requête, notez brièvement ce que vous avez appris et comment cela influence votre requête suivante.
+    Adaptez votre stratégie de recherche en fonction de la qualité et du type d'informations trouvées.
+
+    N'oubliez pas: l'objectif n'est pas seulement de collecter des informations, mais de découvrir l'histoire, les angles d'approche et les idées qui donneront à votre contenu une valeur unique.
+
+  expected_output: >
+    Plan de contenu (500-600 mots):
+
+    **Stratégie de contenu:**
+    - Angle narratif principal pour {topic}
+    - Proposition de valeur pour les lecteurs
+    - Approche du contenu (équilibre technique/accessibilité)
+
+    **Plan détaillé:**
+    1. Accroche et introduction percutantes
+    2. 5 à 7 sections principales avec:
+      - Titres de section accrocheurs
+      - Points clés à aborder (2 à 3 par section)
+      - Répartition estimée des mots pour atteindre environ {word_count}
+    3. Conclusion percutante avec des éléments engageants
+
+    **Éléments de contenu:**
+    - Statistiques et informations clés à mettre en avant
+    - Citations ou opinions d'experts à inclure
+    - Exemples concrets ou études de cas
+    - Conseils pratiques pour les lecteurs
+    - Structure pour une durée de lecture d'environ {read_time} minutes
+
+design_image_task:
+  description: >
+    Mia, recherchez et sélectionnez une image de couverture attrayante et pertinente pour l'article de blog sur le sujet "{topic}".
+
+    **CRITÈRES DE SÉLECTION DE L'IMAGE:**
+    - Pertinence: L'image doit être directement liée au sujet "{topic}".
+    - Qualité: Haute résolution, bien cadrée, avec une bonne composition visuelle.
+    - Esthétique: Visuellement attrayante, professionnelle et engageante.
+    - Originalité: Préférez des images uniques ou moins courantes pour se démarquer.
+    - Droits d'utilisation: Assurez-vous que l'image est libre de droits ou dispose des licences appropriées pour une utilisation commerciale.
+
+    **DIRECTIVES DE RECHERCHE:**
+    - Utilisez des plateformes d'images libres de droits telles que Pexels, Unsplash ou Pixabay.
+    - Effectuez des recherches avec des mots-clés spécifiques liés à "{topic}".
+    - Explorez différentes perspectives et styles visuels pour trouver l'image la plus impactante.
+
+    **FORMAT ET LIVRAISON:**
+    - Fournissez l'URL directe de l'image sélectionnée.
+    - Indiquez le nom de l'auteur et la source de l'image pour les crédits appropriés.
+
+  expected_output: >
+    - URL directe de l'image de couverture sélectionnée.
+    - Nom de l'auteur et source de l'image pour les crédits.
+
+final_writing_task:
+  description: >
+    Elena, rédige un article de blog complet et optimisé pour le référencement naturel sur le sujet "{topic}" en utilisant le brouillon fourni comme guide principal.
+
+    **MÉTHODE PRINCIPALE:**
+    - Utilisez le brouillon comme source principale de contenu.
+    - Améliorez et développez le brouillon pour en faire un article de blog soigné et optimisé pour le référencement (SEO).
+
+    **EXIGENCES D'OPTIMISATION SEO:**
+
+    *Optimisation du titre et des métadonnées:*
+    - Créez un titre optimisé pour le référencement (50 à 60 caractères) incluant le mot-clé principal.
+    - Rédigez une méta-description percutante (150 à 160 caractères) avec les mots-clés cibles.
+    - Utilisez des mots-clés puissants tels que "Guide complet", "Ultimate", "Essentiel", "Meilleures pratiques".
+
+    *Stratégie de mots-clés:*
+    - Identifiez et intégrez naturellement le mot-clé principal dans l'ensemble du contenu.
+    - Utilisez 2 à 3 mots-clés secondaires ou termes associés.
+    - Intégrez les mots-clés dans le titre, le premier paragraphe, les titres de section et de manière naturelle dans le texte.
+    - Visez une densité de mots-clés de 1 à 2% (évitez le sur-remplissage).
+
+    **EXIGENCES RELATIVES À LA STRUCTURE DU CONTENU:**
+    - N'incluez PAS de balise H1 dans le corps du contenu Markdown.
+    - Le titre doit figurer uniquement dans les métadonnées.
+    - Commencez le contenu directement par un paragraphe d'introduction engageant.
+    - Utilisez H2 (##) pour les sections principales et H3 (###) pour les sous-sections.
+    - Incluez les mots-clés cibles. mots clés dans au moins 2 ou 3 titres H2
+
+    *Éléments techniques de référencement:*
+    - Exploiter les liens internes de manière naturelle
+    - Ajouter des textes alternatifs aux images référencées
+    - Garantir une mise en page adaptée aux mobiles
+
+    *Critères de qualité du contenu:*
+    - Commencer par une accroche qui répond à la problématique ou à la question du lecteur
+    - Inclure des conseils pratiques et des exemples concrets
+    - Utiliser des données, des statistiques ou des exemples concrets lorsque c'est possible
+    - Répondre aux questions et objections courantes
+    - Adapter son contenu aux développeurs débutants comme aux développeurs expérimentés
+
+    **CONCLUSION:**
+    - Au lieu d'une section "Liens de référence" ou "Liens internes", terminer par une conclusion courte et percutante
+    - La conclusion doit résumer les points clés et inclure un appel à l'action clair
+    - Terminer par une question ou un défi stimulant pour les lecteurs
+
+  expected_output: >
+    Uniquement du contenu Markdown prêt à publier pour un article de blog, avec une optimisation SEO complète.
+    Doit inclure:
+    - Un titre optimisé pour le SEO (50-60 caractères) avec le mot-clé principal
+    - Une méta-description optimisée pour le SEO (150-160 caractères) avec les mots-clés cibles
+    - 4 à 5 balises pertinentes
+    - Un champ 'categories' ayant une valeur parmi cette liste en fonction du sujet de l'article en choisissant la plus pertinente:
+        - dev : si le sujet traite d'un langage de programmation, d'un framework, d'une bibliothèque ou d'un outil de développement.
+        - iac : si le sujet traite d'infrastructure en tant que code, d'automatisation de l'infrastructure ou de gestion des configurations.
+        - management : si le sujet traite de la gestion de projets, de la gestion d'équipes ou des méthodologies agiles.
+        - cloud : si le sujet traite des services cloud, de l'architecture cloud ou des meilleures pratiques cloud.
+        - ai : si le sujet traite de l'intelligence artificielle, de l'apprentissage automatique ou des technologies connexes.
+        - security : si le sujet traite de la cybersécurité, des meilleures pratiques en matière de sécurité ou des outils de sécurité.
+    - un champ 'image' ayant pour valeur 'assets/images/**thedate**-**slugified_topic**.jpg où **slugified_topic** est un slug généré à partir du sujet en minuscules avec des tirets à la place des espaces et **thedate** est la date d'aujourd'hui au format YYYY-MM-DD.
+    - Une structure de titres claire (H2 pour les sections principales, H3 pour les sous-sections) - Pas de titre H1 dans le contenu
+    - Tous les titres H2 commencent par une icône (par exemple 🔧, 💡, 📌, etc.) à chaque fois différent et pertinent par rapport au titre
+    - Des paragraphes courts et faciles à parcourir, avec des listes à puces
+    - Une intégration naturelle des mots-clés dans tout le contenu
+    - Des conseils pratiques et des exemples concrets
+    - Une conclusion percutante et concise avec un appel à l'action (et non des liens de référence)
+
+    IMPORTANT: N'incluez PAS de titre H1 (# Titre) dans le corps du contenu Markdown. Le titre doit apparaître UNIQUEMENT dans le frontmater. Commencez le contenu directement par un paragraphe d'introduction accrocheur, puis utilisez H2 (##) pour les sections principales.
+        
+
+publishing_task:
+  description: >
+    Sophia, publiez l'article de blog finalisé.
+
+    **INSTRUCTIONS DE BASE**
+    - Importez le fichier Markdown de l'article fourni par le rédacteur principal.
+    - Par défaut, le statut de publication est défini sur "Publié".
+    - En cas d'échec de la publication, incluez un message d'erreur clair dans le rapport.
+
+    **CREATION DE PARAMETRES DE PUBLICATION**
+    Vous devez créer des paramètres spécifiques pour la publication qui seront utilisés dans l'en-tête du fichier Markdown et pour nommer les fichiers.
+    - L'URL de publication sera https://fabricefo.github.io/**slugified_topic**
+
+  expected_output: >
+    - La publication au format Markdown.
+    - Supprime bien la balise markdown en début et fin du contenu.
+
+social_media_post_task:
+  description: >
+    Jamie, crée une publication LinkedIn professionnelle pour promouvoir l'article de blog récemment publié sur le sujet "{topic}".
+
+    **Consignes:**
+    - Extraire l'URL de l'article de blog publié depuis les résultats de publication.
+    - Utiliser les informations, les accroches et les points clés de la tâche de création du brouillon pour une pertinence maximale.
+    - Créer un contenu attrayant pour la publication LinkedIn (200 à 250 caractères maximum).
+    - Inclure 2 à 4 hashtags pertinents pour une visibilité maximale.
+    - Ajouter une accroche percutante incitant les lecteurs à cliquer sur le lien.
+    - Adopter un ton professionnel adapté à l'audience de LinkedIn.
+    - Utiliser les emojis avec parcimonie pour un rendu visuel attrayant.
+    - Conclure par une question incitant à l'action pour encourager l'engagement.
+
+    **Structure d'une publication LinkedIn:**
+    1. Contenu avec une introduction percutante et une proposition de valeur.
+    2. Laisser une ligne vide.
+    3. URL de l'article de blog (texte brut, sans mise en forme Markdown).
+    4. Laisser une ligne vide.
+    5. Hashtags (2 à 4 maximum).
+
+    **Consignes de mise en forme:**
+    - Utiliser uniquement du texte brut, sans mise en forme Markdown.
+    - Ne pas utiliser d'accents graves, de crochets ni de syntaxe Markdown.
+    - Espacer correctement les lignes entre les sections.
+    - Le format doit être prêt pour un copier-coller direct sur LinkedIn.
+
+  expected_output: >
+    Affichez uniquement le contenu de la publication LinkedIn au format TEXTE BRUT.
+    N'utilisez PAS de formatage Markdown, d'accents graves ni de syntaxe spéciale.
+    N'incluez AUCUNE explication, métadonnée ni balise de champ.
+
+    Utilisez exactement la structure suivante:
+
+    [Contenu de la publication avec accroche et proposition de valeur]
+
+    [URL en texte brut]
+
+    [Hashtags]
+
+    Le résultat doit être prêt à être copié-collé directement sur LinkedIn, avec une mise en page correcte.

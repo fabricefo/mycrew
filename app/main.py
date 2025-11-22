@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from crews.crew_manager import kickoff_crew
+from main_flow import BlogWritingFlow
 
 app = FastAPI()
 
@@ -14,5 +14,6 @@ async def help_endpoint():
 
 @app.post("/kickoff/")
 async def kickoff_crew_endpoint(inputs: dict):
-    result = kickoff_crew(inputs)
+    flow = BlogWritingFlow(topic=inputs.topic, word_count=inputs.word_count, read_time=inputs.read_time)
+    result = flow.kickoff()
     return {"result": result}
